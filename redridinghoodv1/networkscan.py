@@ -6,9 +6,9 @@ import random
 from scapy.all import *
 from scapy.layers.dot11 import Dot11Beacon, Dot11Elt
 
-networks_file_path = "redridinghoodv1/Results/networks.txt"
-bssids_file_path = "redridinghoodv1/Results/bssids.txt"
-mac_vendor_file_path = "redridinghoodv1/Misc/mac-vendor.txt"
+networks_file_path = "Results/networks.txt"
+bssids_file_path = "Results/bssids.txt"
+mac_vendor_file_path = "Misc/mac-vendor.txt"
 
 def run_command(command):
     result = subprocess.run(command, capture_output=True, text=True)
